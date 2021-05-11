@@ -57,23 +57,34 @@ body {
 
 .header-textArtea {
   display: flex;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin: 0;
+  margin-left: 35px;
+}
+
+.header-textContent {
+  width: 50%;
 }
 .header-textArtea img {
-  width: 50%;
-  height: 40%;
+  width: 32em;
+  height: 25em;
+  margin: 0;
+  padding: 0;
 }
 
 .header-textContent h1 {
-  font-size: 84px;
+  font-size: 104px;
   letter-spacing: -0.05em;
   line-height: 74px;
   font-weight: 400;
   padding: 0;
+  padding-bottom: 65px;
+  margin: 0;
 }
 
 .header-textContent p {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .header-textContent button {
@@ -85,4 +96,10 @@ body {
   color: #000;
   font-size: 16px;
   line-height: 24px;
+}
+
+@media only screen and (max-width: 780px) {
+  .header-textContent {
+    width: 80%;
+  }
 }
