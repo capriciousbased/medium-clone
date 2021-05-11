@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
 }
 
+.header-container {
+  background-color: #ffc51c;
+  width: 100vw;
+  height: 80vh;
+}
 .logo {
   width: 230px;
   height: 60px;
@@ -50,18 +55,34 @@ body {
   padding: 10px;
 }
 
-/* 
-.nav-container {
+.header-textArtea {
   display: flex;
-  align-items: center;
-  padding-left: 30px;
+  padding: 20px;
 }
-.nav-item  li{
-  list-style-type: none;
-  padding: 0 15px;
-  margin: 0 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+.header-textArtea img {
+  width: 50%;
+  height: 40%;
 }
 
- */
+.header-textContent h1 {
+  font-size: 84px;
+  letter-spacing: -0.05em;
+  line-height: 74px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.header-textContent p {
+  font-size: 20px;
+}
+
+.header-textContent button {
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 99em;
+  width: 128px;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
